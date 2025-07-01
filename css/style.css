@@ -1,0 +1,251 @@
+.menu-hor{
+    width: 200px;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 4px;  
+    padding: 15px;
+    left: 0;
+    height: 45vh;
+ 
+}
+
+.container{
+    display: flex;
+}
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    font-size: 10px;
+    color: #004080;
+    text-decoration: none;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s;
+}
+
+.menu-item:hover {
+    background-color: #e0eaff;
+}
+
+.menu-item.active {
+    background-color: #001a4d; /* Màu xanh đậm */
+    color: white;
+}
+
+.menu-item img {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+.headernd {
+    background-color:  #b71c1c;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 2px solid #004080;
+    background: url('background.jpg') no-repeat center center/cover;
+}
+.navbarnd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #001a4d; /* Màu sắc từ ảnh */
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbarnd .nav-leftnd,
+.navbarnd .nav-rightnd {
+    display: flex;
+    align-items: center;
+}
+
+.navbarnd .nav-leftnd img,
+.navbarnd .nav-rightnd img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.navbarnd .nav-item {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.navbarnd .nav-item:hover {
+    text-decoration: underline;
+}
+
+
+.header {
+    background-color: #f8f8f8;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 2px solid #004080;
+    background: url('background.jpg') no-repeat center center/cover;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 30px;
+    color: #004080;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 30px;
+    color: #004080;
+}
+
+
+/* Thanh điều hướng */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #001a4d; /* Màu sắc từ ảnh */
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbar .nav-left,
+.navbar .nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-left img,
+.navbar .nav-right img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.navbar .nav-item {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.navbar .nav-item:hover {
+    text-decoration: underline;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(36, 6, 105);
+    color: white;
+    padding: 20px;
+}
+ .header-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo{
+    width: 60px;
+    margin-left: 50%;
+    height: auto;
+}
+.menu-hor {
+    width: 250px;
+    background-color: #f8f8f8;
+    border-right: 1px solid #ddd;
+    height: 100%;
+    overflow: auto;
+}
+
+.menu-hor ul {
+    list-style: none;
+    padding: 10px;
+    width: 180px;
+}
+
+.menu-hor ul li {
+    margin: 20px ;
+    background-color:#e2e6ea;
+    border-radius: 4px;
+}
+
+.menu-hor ul li a {
+    text-decoration: blue;
+    color: #b62727;
+    display: block;
+    padding: 8px 10px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.menu-hor ul li a:hover {
+    background-color: #e2e6ea;
+    color: #007bff;
+}
+
+
+.tao{
+    margin-top: 112px;
+
+    margin-right: 20px;
+    padding: 2px;
+    width: auto;
+ 
+}
+
+/* Đẩy phần nội dung chính sang bên phải để không bị che bởi menu */
+ .frmdsphong  {
+    margin-left: 5px; /* Đẩy nội dung cách menu 220px (kích thước menu + khoảng trống) */
+    padding: auto;
+    margin-top: auto; /* Tạo khoảng cách bên trong cho nội dung */
+}
+.frmtitle{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.frmcontent {
+    flex: 1;
+    padding: auto;
+    width: 100%;
+    margin-inline: auto;
+}
+.row{
+    width: 98%;
+}
+
+/* CSS cho bảng quản lý phòng */
+table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    white-space: nowrap;    
+}
+
+table th {
+    background-color: #f1f1f1;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+
+
+
+
+
